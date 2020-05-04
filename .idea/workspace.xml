@@ -26,14 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="603089fc-8aeb-4783-9bc4-54e934872cf3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/observer_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/observer_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/observer_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/observer_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="306" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588545632314</updated>
       <workItem from="1588545634523" duration="103000" />
-      <workItem from="1588546089558" duration="3969000" />
+      <workItem from="1588546089558" duration="4398000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md.">
       <created>1588556442896</created>
@@ -143,10 +148,17 @@
       <option name="project" value="LOCAL" />
       <updated>1588556442896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Development Complete&#10;&#10;Added 'ObserverInt.observable()', 'ObserverInt.type(identifier = nil)', 'ObserverInt.changed(instance = nil)', 'ObserverInt.notify(instance = nil)', and 'ObserverInt.kind_observer(instance = nil)'. Declared 'new()' and 'ObserverInt.kind_observer(instance = nil)' private. Added method declaration test coverage.">
+      <created>1588610099044</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588610099044</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Observer Subsystem:{ No Subsystem } Component: Interface Sprints: 1 State: Development" />
+        <option name="defaultSearch" value="project: Observer Subsystem:{ No Subsystem } Component: Interface Sprints: 1 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -154,9 +166,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md." />
+    <MESSAGE value="Development Complete&#10;&#10;Added 'ObserverInt.observable()', 'ObserverInt.type(identifier = nil)', 'ObserverInt.changed(instance = nil)', 'ObserverInt.notify(instance = nil)', and 'ObserverInt.kind_observer(instance = nil)'. Declared 'new()' and 'ObserverInt.kind_observer(instance = nil)' private. Added method declaration test coverage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Added 'ObserverInt.observable()', 'ObserverInt.type(identifier = nil)', 'ObserverInt.changed(instance = nil)', 'ObserverInt.notify(instance = nil)', and 'ObserverInt.kind_observer(instance = nil)'. Declared 'new()' and 'ObserverInt.kind_observer(instance = nil)' private. Added method declaration test coverage." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -164,10 +188,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="438" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588545699823" />
-    <state x="112" y="73" width="1415" height="831" key="CommitChangelistDialog2" timestamp="1588556442460">
+    <state x="112" y="73" width="1415" height="831" key="CommitChangelistDialog2" timestamp="1588610348362">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="112" y="73" width="1415" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588556442460" />
+    <state x="112" y="73" width="1415" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588610348362" />
     <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1588609784617">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -188,10 +212,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="430" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1588555682437" />
-    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588609831584">
+    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588610365844">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588609831584" />
+    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588610365844" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/observer_int@ObserverIntTest.rcov" NAME="ObserverIntTest Coverage Results" MODIFIED="1588609778163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="observer_int" />
